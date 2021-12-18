@@ -1,11 +1,13 @@
 # Set Variables
 # Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export HOMEBREW_CASH_OPTS="--no-quarantine"
 
 # Change ZSH Options
 
 # Create Aliases
-alias ls='ls -lAfh .'
+alias ls='exa -laFh --git'
+alias exa='exa -laFh --git'
 
 # Customise Prompt(s)
 PROMPT='

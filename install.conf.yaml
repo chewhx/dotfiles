@@ -9,7 +9,8 @@
     ~/.gitconfig:
 
 - create:
-    - ~/Work
+    - ~/GitHub
+    - ~/Dev
 
 - shell:
     -
