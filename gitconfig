@@ -1,3 +1,8 @@
 [user]
 	name = Chew Han Xiang
 	email = 5371541+chewhx@users.noreply.github.com
+
+[alias]
+  ac = !git add -A && git commit
+  ch = checkout
+  br = branch
