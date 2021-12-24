@@ -17,6 +17,9 @@ alias ytdl="youtube-dl"
 alias ytdl-best="youtube-dl -f best"
 alias src="source ~/.zshrc"
 alias ddrn="code ~/Dendron"
+alias root="cd ~"
+alias dev="cd ~/Dev"
+alias rm=trash
 
 # Git
 parse_git_branch() {
