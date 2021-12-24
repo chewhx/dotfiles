@@ -1,3 +1,5 @@
+
+
 # Set Variables
 # Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
@@ -27,8 +29,8 @@ parse_git_branch() {
 }
 
 # Customise Prompt(s)
-PROMPT='%1~ %L %# '
-
+# PROMPT='%1~ %L %# '
+source ~/.agnoster.zsh-theme
 
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)

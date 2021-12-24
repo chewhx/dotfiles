@@ -5,9 +5,10 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc:
+    ~/.zshrc: 
     ~/.zshenv:
     ~/.zshplugins:
+    ~/.agnoster.zsh-theme:
     ~/.gitconfig:
     ~/.config/bat:
         create: true
