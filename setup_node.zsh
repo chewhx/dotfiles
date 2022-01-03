@@ -14,6 +14,7 @@ fi
 
 # Install Global NPM Packages
 npm install --global trash-cli
+npm install --global typescript
 
 echo "Global NPM Packages Installed:"
 npm list --global --depth=0

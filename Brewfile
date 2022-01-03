@@ -1,9 +1,12 @@
+tap "aws/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -20,6 +23,8 @@ brew "mas"
 brew "n"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
+# AWS SAM CLI 🐿 is a tool for local development and testing of Serverless applications
+brew "aws/tap/aws-sam-cli"
 # High-performance, schema-free, document-oriented database
 brew "mongodb/brew/mongodb-community"
 # Password manager that keeps all passwords secure behind one password
@@ -36,6 +41,8 @@ cask "brave-browser"
 cask "calibre"
 # Full-featured desktop app for DevDocs.io
 cask "devdocs"
+# App to build and share containerized applications and microservices
+cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Finder replacement and FTP, SFTP, WebDAV and Amazon s3 client
@@ -44,8 +51,12 @@ cask "forklift"
 cask "google-chrome"
 # Free and open-source media player
 cask "iina"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
+# Open-source keystroke visualizer
+cask "keycastr"
 # Software for Logitech devices
 cask "logitech-options"
 # Meet, chat, call, and collaborate in just one place
@@ -64,6 +75,8 @@ cask "runjs"
 cask "sketch"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Helper application for Things
+cask "thingsmacsandboxhelper"
 # Trading platform
 cask "tiger-trade"
 # Open-source BitTorrent client
@@ -73,8 +86,10 @@ cask "visual-studio-code"
 # Desktop client for WhatsApp
 cask "whatsapp"
 mas "iA Writer", id: 775737590
+mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
+mas "Pixelmator", id: 407963104
 mas "Screenie", id: 965442961
 mas "Things", id: 904280696

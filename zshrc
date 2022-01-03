@@ -22,6 +22,8 @@ alias ddrn="code ~/Dendron"
 alias root="cd ~"
 alias dev="cd ~/Dev"
 alias rm=trash
+alias runjs="cd ~/Library/Application\ Support/runjs"
+alias npm-g="npm list -g --depth=0"
 
 # Git
 parse_git_branch() {
