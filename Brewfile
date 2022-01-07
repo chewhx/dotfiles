@@ -45,6 +45,8 @@ cask "devdocs"
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Collaborative team software
+cask "figma"
 # Finder replacement and FTP, SFTP, WebDAV and Amazon s3 client
 cask "forklift"
 # Web browser
@@ -91,5 +93,6 @@ mas "Keynote", id: 409183694
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Pixelmator", id: 407963104
+mas "Post-it®", id: 1475777828
 mas "Screenie", id: 965442961
 mas "Things", id: 904280696
