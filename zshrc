@@ -11,8 +11,9 @@ export PATH=$N_PREFIX/bin:$PATH
 # Change ZSH Options
 
 # Create Aliases
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
+alias ll='exa -laFh --git --icons'
+alias ls='exa --grid --icons'
+# alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias ytdl="youtube-dl"

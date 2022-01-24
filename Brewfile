@@ -2,13 +2,20 @@ tap "aws/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
+# Client for Amazon Elastic Beanstalk web service
+brew "aws-elasticbeanstalk"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Defines a standard way of committing rules and communicating it
+brew "commitizen"
 # Modern replacement for 'ls'
 brew "exa"
 # GitHub command-line tool
@@ -21,6 +28,8 @@ brew "httpie"
 brew "mas"
 # Node version management
 brew "n"
+# General-purpose scripting language
+brew "php"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 # AWS SAM CLI 🐿 is a tool for local development and testing of Serverless applications
@@ -47,6 +56,8 @@ cask "docker"
 cask "dropbox"
 # Collaborative team software
 cask "figma"
+cask "font-hack-nerd-font"
+cask "font-space-mono-nerd-font"
 # Finder replacement and FTP, SFTP, WebDAV and Amazon s3 client
 cask "forklift"
 # Web browser
@@ -59,8 +70,6 @@ cask "iterm2"
 cask "keepingyouawake"
 # Open-source keystroke visualizer
 cask "keycastr"
-# Software for Logitech devices
-cask "logitech-options"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Explore and manipulate your MongoDB data
@@ -81,18 +90,26 @@ cask "telegram"
 cask "thingsmacsandboxhelper"
 # Trading platform
 cask "tiger-trade"
+# Git client focusing on power and productivity
+cask "tower"
 # Open-source BitTorrent client
 cask "transmission"
 # Open-source code editor
 cask "visual-studio-code"
 # Desktop client for WhatsApp
 cask "whatsapp"
+mas "Day One", id: 1055511498
+mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
 mas "iMovie", id: 408981434
+mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
+mas "Messenger", id: 1480068668
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Post-it®", id: 1475777828
 mas "Screenie", id: 965442961
 mas "Things", id: 904280696
+mas "Xcode", id: 497799835

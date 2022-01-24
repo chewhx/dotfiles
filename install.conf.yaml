@@ -10,6 +10,7 @@
     ~/.zshplugins:
     ~/.agnoster.zsh-theme:
     ~/.prettier.js:
+    ~/.czrc:
     ~/.gitconfig:
     ~/.config/bat:
         create: true
