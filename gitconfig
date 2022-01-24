@@ -4,5 +4,7 @@
 
 [alias]
   ac = !git add -A && git commit
-  ch = checkout
+  co = checkout
   br = branch
+  ba = branch -a
+

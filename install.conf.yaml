@@ -9,6 +9,7 @@
     ~/.zshenv:
     ~/.zshplugins:
     ~/.agnoster.zsh-theme:
+    ~/.prettier.js:
     ~/.gitconfig:
     ~/.config/bat:
         create: true

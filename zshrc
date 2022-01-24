@@ -18,12 +18,15 @@ alias trail='<<<${(F)path}'
 alias ytdl="youtube-dl"
 alias ytdl-best="youtube-dl -f best"
 alias src="source ~/.zshrc"
-alias ddrn="code ~/Dendron"
+alias ddrn="code ~/Dendron/dendron.code-workspace"
 alias root="cd ~"
 alias dev="cd ~/Dev"
+alias dot="cd ~/.dotfiles"
 alias rm=trash
 alias runjs="cd ~/Library/Application\ Support/runjs"
 alias npm-g="npm list -g --depth=0"
+alias g=git
+alias prettierrc="node ~/.prettier.js"
 
 # Git
 parse_git_branch() {
