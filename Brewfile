@@ -6,6 +6,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "mongodb/brew"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Client for Amazon Elastic Beanstalk web service
 brew "aws-elasticbeanstalk"
 # Interpreted, interactive, object-oriented programming language
@@ -18,6 +20,10 @@ brew "bat"
 brew "commitizen"
 # Modern replacement for 'ls'
 brew "exa"
+# Firebase command-line tools
+brew "firebase-cli"
+# Libraries to talk to Microsoft SQL Server and Sybase databases
+brew "freetds"
 # GitHub command-line tool
 brew "gh"
 # Distributed revision control system
@@ -26,10 +32,20 @@ brew "git"
 brew "httpie"
 # Mac App Store command-line interface
 brew "mas"
+# Platform built on V8 to build network applications
+brew "node@14"
+# MongoDB Shell to connect, configure, query, and work with your MongoDB database
+brew "mongosh"
+# Open source relational database management system
+brew "mysql", restart_service: true
 # Node version management
 brew "n"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # General-purpose scripting language
 brew "php"
+# Version control system designed to be a better CVS
+brew "subversion"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 # AWS SAM CLI 🐿 is a tool for local development and testing of Serverless applications
@@ -57,6 +73,8 @@ cask "dropbox"
 # Collaborative team software
 cask "figma"
 cask "font-hack-nerd-font"
+# Font with a mechanical skeleton and the forms are largely geometric
+cask "font-roboto"
 cask "font-space-mono-nerd-font"
 # Finder replacement and FTP, SFTP, WebDAV and Amazon s3 client
 cask "forklift"
@@ -70,6 +88,8 @@ cask "iterm2"
 cask "keepingyouawake"
 # Open-source keystroke visualizer
 cask "keycastr"
+# Detailed information on every Apple product ever made
+cask "mactracker"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Explore and manipulate your MongoDB data
@@ -84,6 +104,10 @@ cask "rectangle"
 cask "runjs"
 # Digital design and prototyping platform
 cask "sketch"
+# Text editor for code, markup and prose
+cask "sublime-text"
+# CSV file editor
+cask "table-tool"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Helper application for Things
@@ -99,6 +123,7 @@ cask "visual-studio-code"
 # Desktop client for WhatsApp
 cask "whatsapp"
 mas "Day One", id: 1055511498
+mas "Drafts", id: 1435957248
 mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
 mas "iMovie", id: 408981434
@@ -106,6 +131,7 @@ mas "Jira", id: 1475897096
 mas "Keynote", id: 409183694
 mas "Messenger", id: 1480068668
 mas "MindNode", id: 1289197285
+mas "Notion Web Clipper", id: 1559269364
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104

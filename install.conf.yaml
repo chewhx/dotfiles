@@ -10,6 +10,7 @@
     ~/.zshplugins:
     ~/.agnoster.zsh-theme:
     ~/.prettier.js:
+    ~/.nodemon.js:
     ~/.czrc:
     ~/.gitconfig:
     ~/.config/bat:
@@ -21,6 +22,7 @@
     - ~/Dev
     - ~/Desktop/Screenshots
     - ~/Tutorials
+    - ~/Templates˝
 
 - shell:
     -

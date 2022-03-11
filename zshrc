@@ -13,6 +13,8 @@ export PATH=$N_PREFIX/bin:$PATH
 # Create Aliases
 alias ll='exa -laFh --git --icons'
 alias ls='exa --grid --icons'
+alias la='exa --grid --icons -a'
+alias nr='npm run'
 # alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
@@ -23,11 +25,19 @@ alias ddrn="code ~/Dendron/dendron.code-workspace"
 alias root="cd ~"
 alias dev="cd ~/Dev"
 alias dot="cd ~/.dotfiles"
+alias dwl="cd ~/Downloads"
+alias tut="cd ~/Tutorials"
 alias rm=trash
 alias runjs="cd ~/Library/Application\ Support/runjs"
+alias runjsp="cd ~/Library/Application\ Support/runjs && cat package.json"
 alias npm-g="npm list -g --depth=0"
 alias g=git
 alias prettierrc="node ~/.prettier.js"
+alias nodemonjson="node ~/.nodemon.js"
+alias br=brew
+alias notion-jour="node ~/Workflows/wf-notion-journal/dist/index.js"
+alias rename="mv"
+alias fb="firebase"
 
 # Git
 parse_git_branch() {
