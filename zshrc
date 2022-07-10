@@ -18,8 +18,8 @@ alias nr='npm run'
 # alias exa='exa -laFh --git'
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
-alias ytdl="youtube-dl"
-alias ytdl-best="youtube-dl -f best"
+alias ytdl="yt-dlp"
+alias ytdl-best="yt-dlp -f best"
 alias src="source ~/.zshrc"
 alias ddrn="code ~/Dendron/dendron.code-workspace"
 alias root="cd ~"
@@ -38,6 +38,9 @@ alias br=brew
 alias notion-jour="node ~/Workflows/wf-notion-journal/dist/index.js"
 alias rename="mv"
 alias fb="firebase"
+alias hero="heroku"
+alias cra="npx create-react-app"
+alias touch="fse touch"
 
 # Git
 parse_git_branch() {
@@ -46,7 +49,7 @@ parse_git_branch() {
 
 # Customise Prompt(s)
 # PROMPT='%1~ %L %# '
-source ~/.agnoster.zsh-theme
+source ~/.zsh-themes/agnoster.zsh-theme
 
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)
@@ -59,7 +62,8 @@ function mkcd () {
 }
 
 # Use ZSH Plugins
-source ~/.zshplugins
-
+source ~/.zsh/zshplugins
 
 # ...and Other Surprises
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

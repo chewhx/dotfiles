@@ -13,6 +13,8 @@ else
 fi
 
 # Install Global NPM Packages
+npm install --global @atao60/fse-cli
+npm install --global @nestjs/cli
 npm install --global trash-cli
 npm install --global typescript
 

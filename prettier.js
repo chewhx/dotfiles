@@ -6,7 +6,7 @@ const data = `{
   "trailingComma": "es5",
   "tabWidth": 2,
   "useTabs": true,
-  "singleQuote": false,
+  "singleQuote": true,
   "semi": true,
   "printWidth": 80,
   "bracketSpacing": true,
