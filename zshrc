@@ -24,6 +24,7 @@ alias src="source ~/.zshrc"
 alias ddrn="code ~/Dendron/dendron.code-workspace"
 alias root="cd ~"
 alias dev="cd ~/Dev"
+alias work="cd ~/Work"
 alias dot="cd ~/.dotfiles"
 alias dwl="cd ~/Downloads"
 alias tut="cd ~/Tutorials"
@@ -41,6 +42,17 @@ alias fb="firebase"
 alias hero="heroku"
 alias cra="npx create-react-app"
 alias touch="fse touch"
+alias checknpm="npm-name"
+alias ni="npm install"
+alias nid="npm install -D"
+alias nu="npm uninstall"
+alias y="yarn"
+alias mongoRep="run-rs --keep --mongod"
+alias nv="nvim"
+alias j="jrnl"
+alias doc="doctl"
+alias nextjs="npx create-next-app@latest"
+alias nextjstypescript="npx create-next-app@latest --typescript"
 
 # Git
 parse_git_branch() {
@@ -67,3 +79,5 @@ source ~/.zsh/zshplugins
 # ...and Other Surprises
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+bindkey '^[[Z' autosuggest-accept  # shift + tab  | autosuggest
+
