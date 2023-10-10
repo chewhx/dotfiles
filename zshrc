@@ -53,6 +53,7 @@ alias j="jrnl"
 alias doc="doctl"
 alias nextjs="npx create-next-app@latest"
 alias nextjstypescript="npx create-next-app@latest --typescript"
+alias vite="npm create vite@latest"
 
 # Git
 parse_git_branch() {
@@ -81,3 +82,5 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^[[Z' autosuggest-accept  # shift + tab  | autosuggest
 
+# Python
+export PATH="$(brew --prefix)/opt/python@3/libexec/bin:$PATH"
