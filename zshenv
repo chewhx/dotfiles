@@ -6,3 +6,8 @@ function exists() {
   # More explicitly written:
   # command -v $1 1>/dev/null 2>/dev/null
 }
+
+# Creates a directory and then changes into it
+function mkcd () {
+  mkdir $1 && cd $1
+}

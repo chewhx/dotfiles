@@ -2,7 +2,7 @@
     link:
       relink: true
 
-- clean: ["~"]
+- clean: ['~']
 
 - link:
     ~/.zshrc:
@@ -11,24 +11,14 @@
       path: zsh
       create: true
       use_glob: true
-    ~/.zsh-themes:
-      path: zsh-themes
-      create: true
-      use_glob: true
-    ~/.prettier.js:
-    ~/.nodemon.js:
-    ~/.czrc:
     ~/.gitconfig:
     ~/.config/bat:
       create: true
       path: config/bat
 
 - create:
-    - ~/GitHub
     - ~/Dev
     - ~/Desktop/Screenshots
-    - ~/Tutorials
-    - ~/Templates˝
 
 - shell:
     - command: ./setup/setup_homebrew.zsh
