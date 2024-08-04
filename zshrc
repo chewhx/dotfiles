@@ -6,6 +6,7 @@ alias y=yarn
 alias br=brew
 alias rename=mv
 alias touch="fse touch"
+alias bbd="brew bundle dump --force --describe"
 
 ## npm
 alias nr="npm run"

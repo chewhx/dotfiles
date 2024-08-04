@@ -91,16 +91,12 @@ brew "httpie"
 brew "jpeg", link: true
 # Easy way to access the system keyring service from python
 brew "keyring"
-# Command-line note taker
-brew "jrnl"
 # Provides library functionality for FIDO U2F & FIDO 2.0, including USB
 brew "libfido2"
 # Postgres C API library
 brew "libpq"
 # Library to render SVG files using Cairo
 brew "librsvg"
-# Web and API based SMTP testing tool
-brew "mailhog"
 # Mac App Store command-line interface
 brew "mas"
 # Simple tool to make locally trusted development certificates
@@ -147,8 +143,6 @@ brew "heroku/brew/heroku"
 brew "mongodb/brew/mongodb-community"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Application launcher and productivity software
-cask "alfred"
 # Application uninstaller
 cask "appcleaner"
 # Chromium based browser
@@ -159,16 +153,14 @@ cask "beekeeper-studio"
 cask "binance"
 # E-books management software
 cask "calibre"
-# Downloads videos and audio from websites
-cask "clipgrab"
 # App to build and share containerised applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Collaborative team software
 cask "figma"
-cask "font-fira-code"
 cask "font-geist-mono"
+cask "font-sf-mono"
 # Web browser
 cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
@@ -213,8 +205,6 @@ cask "rectangle"
 cask "runjs"
 # Comic viewer/reader
 cask "simple-comic"
-# Digital design and prototyping platform
-cask "sketch"
 # Team communication and collaboration software
 cask "slack"
 # Graphical client for Git version control
@@ -266,6 +256,7 @@ vscode "dsznajder.es7-react-js-snippets"
 vscode "eamodio.gitlens"
 vscode "ecmel.vscode-html-css"
 vscode "editorconfig.editorconfig"
+vscode "enhancedjax.vscode-ayu-zed"
 vscode "esbenp.prettier-vscode"
 vscode "formulahendry.auto-close-tag"
 vscode "formulahendry.auto-rename-tag"
@@ -291,6 +282,7 @@ vscode "ms-toolsai.vscode-jupyter-slideshow"
 vscode "ms-vscode.vscode-typescript-next"
 vscode "ms-vsliveshare.vsliveshare"
 vscode "msjsdiag.vscode-react-native"
+vscode "nascc.gptheme-plus"
 vscode "perkovec.emoji"
 vscode "pkief.material-icon-theme"
 vscode "remixproject.ethereum-remix"
