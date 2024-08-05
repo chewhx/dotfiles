@@ -42,6 +42,7 @@ alias dwl="cd ~/Downloads"
 alias runjs="cd ~/Library/Application\ Support/runjs"
 
 # Plugins
+source ~/.zsh/common.zsh-theme
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^[[Z' autosuggest-accept  # shift + tab  | autosuggest
