@@ -117,12 +117,14 @@ brew "python@3.10"
 brew "node@14"
 # Platform built on V8 to build network applications
 brew "node@16"
+# Create, run, and share large language models (LLMs)
+brew "ollama", restart_service: true
 # General-purpose scripting language
 brew "php"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Object-relational database system
-brew "postgresql@14", restart_service: true
+brew "postgresql@15", restart_service: true
 # Python version management
 brew "pyenv"
 # Tool Command Language
@@ -143,6 +145,8 @@ brew "heroku/brew/heroku"
 brew "mongodb/brew/mongodb-community"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# Command-line interface for 1Password
+cask "1password-cli"
 # Application uninstaller
 cask "appcleaner"
 # Chromium based browser
@@ -153,12 +157,15 @@ cask "beekeeper-studio"
 cask "binance"
 # E-books management software
 cask "calibre"
+# Server and cloud storage browser
+cask "cyberduck"
 # App to build and share containerised applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Collaborative team software
 cask "figma"
+cask "font-geist"
 cask "font-geist-mono"
 cask "font-sf-mono"
 # Web browser
@@ -173,8 +180,6 @@ cask "imageoptim"
 cask "insomnia"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Keyboard customiser
-cask "karabiner-elements"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # Open-source keystroke visualiser
@@ -183,6 +188,10 @@ cask "keycastr"
 cask "ledger-live"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Spreadsheet software
+cask "microsoft-excel"
+# Word processor
+cask "microsoft-word"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
 # Tool to control external monitor brightness & volume
@@ -225,6 +234,8 @@ cask "transmission"
 cask "visual-studio-code"
 # Native desktop client for WhatsApp
 cask "whatsapp"
+# Multiplayer code editor
+cask "zed"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "1Password for Safari", id: 1569813296
@@ -246,6 +257,8 @@ mas "Wireless@SGx", id: 1449928544
 mas "Xcode", id: 497799835
 vscode "adpyke.codesnap"
 vscode "akamud.vscode-theme-onedark"
+vscode "be5invis.vscode-custom-css"
+vscode "biomejs.biome"
 vscode "bradlc.vscode-tailwindcss"
 vscode "christian-kohler.npm-intellisense"
 vscode "christian-kohler.path-intellisense"

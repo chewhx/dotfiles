@@ -8,6 +8,9 @@ alias rename=mv
 alias touch="fse touch"
 alias bbd="brew bundle dump --force --describe"
 
+## bun
+alias b=bun
+
 ## npm
 alias nr="npm run"
 alias ni="npm install"
